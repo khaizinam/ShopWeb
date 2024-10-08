@@ -1,6 +1,23 @@
 import { Routes } from '@angular/router';
-import { HomePageComponent } from './home-page/home-page.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ProductComponent } from './pages/product/product.component';
+import { PolicyComponent } from './pages/policy/policy.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { AboutComponent } from './pages/about/about.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { CartComponent } from './pages/cart/cart.component';
 
 export const routes: Routes = [
-  { path: '', component: HomePageComponent },
+  { path: '', component: HomeComponent },
+  { path: 'product', component: ProductComponent },
+  { path: 'product/:id', component: ProductComponent },
+  { path: 'policy', component: PolicyComponent },
+  { path: 'cart', component: CartComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: '**', pathMatch: 'full', component: PageNotFoundComponent },
 ];
