@@ -8,11 +8,12 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'product', component: ProductComponent },
   { path: 'product/:id', component: ProductComponent },
+  { path: 'product-detail/:id', component: ProductDetailComponent },
   { path: 'policy', component: PolicyComponent },
   { path: 'cart', component: CartComponent },
   { path: 'contact', component: ContactComponent },

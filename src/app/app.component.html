@@ -1,34 +1,52 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container px-4 px-lg-5">
-      <a class="navbar-brand" href="/">ShopWeb</a>
+      <a class="brand-log" href="/">
+        <img class="logo" src="img/Uniqlo-logo.png" alt="" />
+      </a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 header-menu">
               <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="/about">Giới thiệu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
+                <a class="nav-link" href="/contact">Liên hệ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/policy">Policy</a>
+                <a class="nav-link" href="/policy">Chính sách</a>
               </li>
           </ul>
           <div class="d-flex gap-2">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="q" placeholder="Nhập từ khoá">
+                <div class="input-group-prepend">
+                  <span class="input-group-text f-height">
+                    <i class="c-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                    </i>
+                  </span>
+                </div>
+              </div>
+
               <a href="cart" class="btn btn-outline-dark d-flex align-items-center gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                  </svg>
-                  Cart
+                  <i class="c-icon large">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                  </i>
+
                   <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                 </a>
               <a href="/login" class="btn btn-outline-dark d-flex align-items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                </svg>
-                  Login
+                <i class="c-icon large">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg>
+                </i>
+                Login
               </a>
           </div>
       </div>
@@ -50,15 +68,16 @@
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
-          <h6 class="text-uppercase fw-bold">Company name</h6>
+          <h6 class="text-uppercase fw-bold">Về chúng tôi</h6>
           <hr
               class="mb-4 mt-0 d-inline-block mx-auto"
               style="width: 60px; background-color: #7c4dff; height: 2px"
               />
           <p>
-            Here you can use rows and columns to organize your footer
-            content. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit.
+            Uniqlo là công ty Nhật Bản, cung cấp các sản phẩm thời trang thiết yếu cho tất cả mọi người
+          </p>
+          <p>
+            Tầng 26, Tòa nhà Viettel, Số 285, Đường Cách Mạng Tháng Tám, Phường 12, Quận 10, Thành phố Hồ Chí Minh, Việt Nam
           </p>
         </div>
         <!-- Grid column -->
@@ -66,22 +85,22 @@
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold">Products</h6>
+          <h6 class="text-uppercase fw-bold">Trang</h6>
           <hr
               class="mb-4 mt-0 d-inline-block mx-auto"
               style="width: 60px; background-color: #7c4dff; height: 2px"
               />
           <p>
-            <a href="#!" class="text-white">MDBootstrap</a>
+            <a href="/about" class="text-white">Giới thiệu</a>
           </p>
           <p>
-            <a href="#!" class="text-white">MDWordPress</a>
+            <a href="/" class="text-white">Trang chủ</a>
           </p>
           <p>
-            <a href="#!" class="text-white">BrandFlow</a>
+            <a href="/contact" class="text-white">Liên hệ</a>
           </p>
           <p>
-            <a href="#!" class="text-white">Bootstrap Angular</a>
+            <a href="/policy" class="text-white">Chính sách</a>
           </p>
         </div>
         <!-- Grid column -->
