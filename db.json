@@ -1,0 +1,36 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "Polo",
+      "cost": "40000",
+      "category_id": "1",
+      "image": "img/san-pham/san-pham-1.jpg"
+    },
+    {
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "1",
+      "image": "img/san-pham/san-pham-1.jpg",
+      "id": "2"
+    },
+    {
+      "id": "848d",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "1",
+      "image": "img/san-pham/san-pham-1.jpg"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "user": {
+    "name": "typicode"
+  },
+  "cart": {}
+}
