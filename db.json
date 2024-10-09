@@ -11,26 +11,128 @@
       "name": "Polo 2",
       "cost": "40000",
       "category_id": "1",
-      "image": "img/san-pham/san-pham-1.jpg",
+      "image": "img/san-pham/san-pham-2.jpg",
       "id": "2"
     },
     {
-      "id": "848d",
+      "id": "3",
       "name": "Polo 2",
       "cost": "40000",
       "category_id": "1",
-      "image": "img/san-pham/san-pham-1.jpg"
+      "image": "img/san-pham/san-pham-3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "1",
+      "image": "img/san-pham/san-pham-4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "1",
+      "image": "img/san-pham/san-pham-5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "1",
+      "image": "img/san-pham/san-pham-6.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "1",
+      "image": "img/san-pham/san-pham-7.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "1",
+      "image": "img/san-pham/san-pham-8.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "2",
+      "image": "img/san-pham/san-pham-9.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "2",
+      "image": "img/san-pham/san-pham-10.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "2",
+      "image": "img/san-pham/san-pham-11.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "2",
+      "image": "img/san-pham/san-pham-12.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "2",
+      "image": "img/san-pham/san-pham-13.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "2",
+      "image": "img/san-pham/san-pham-14.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "2",
+      "image": "img/san-pham/san-pham-15.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Polo 2",
+      "cost": "40000",
+      "category_id": "2",
+      "image": "img/san-pham/san-pham-9.jpg"
     }
+    
   ],
   "category": [
     {
       "id": "1",
-      "body": "some comment",
-      "postId": 1
+      "name": "Sản phẩm bán chạy"
+    },
+    {
+      "id": "2",
+      "name": "Sản phẩm mới nhất"
     }
   ],
-  "user": {
-    "name": "typicode"
-  },
+  "user": [
+    {
+      "id" : 1,
+      "name" : "khai",
+      "email" : "khai@khai",
+      "pass":"khai",
+      "phone" : "0846141788",
+      "address" : "HCM  city"
+    }
+  ],
   "cart": {}
 }

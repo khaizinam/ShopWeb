@@ -10,7 +10,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
-
+import { provideHttpClient } from '@angular/common/http';
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'product/:id', component: ProductComponent },
@@ -24,3 +24,6 @@ export const routes: Routes = [
   { path: 'forgot-password', component: ForgotPasswordComponent },
   { path: '**', pathMatch: 'full', component: PageNotFoundComponent },
 ];
+export const appConfig = {
+  providers: [provideHttpClient()],
+};

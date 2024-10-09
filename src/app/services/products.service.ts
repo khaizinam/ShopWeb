@@ -10,11 +10,11 @@ export class ProductsService {
   constructor(private http: HttpClient) {}
 
   // Get all posts
-  getProductByCategory(category_id:any): any {
+  getByCategory(category_id:any): any {
     return this.http.get<any>(`${this.apiUrl}?category_id=${category_id}`);
   }
   // Get all posts
-  getProductById(id:any): any {
+  getById(id:any): any {
     return this.http.get<any>(`${this.apiUrl}/${id}`);
   }
 }
