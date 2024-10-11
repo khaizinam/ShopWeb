@@ -87,6 +87,7 @@ export class CartComponent implements OnInit{
       (response) => {
         if(response){
           this.cartData = this.cartData.filter((el:any)=> el.id !== item.id);
+          this.getTotalPrice();
         }
       },
       (error:any) => {
