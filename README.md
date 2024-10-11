@@ -1,8 +1,8 @@
 # require
-node version v22.7.0
-npm : 10.8.2
-yarn version : 1.22.22
+- node version v22.7.0
+- npm : 10.8.2
+- yarn version : 1.22.2
 # run app
-yarn : install package
-yarn start : run app
-yarn server : run server db
+- install package : yarn
+- Run App : yarn start
+- run server json database: yarn server
