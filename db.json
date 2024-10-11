@@ -112,7 +112,6 @@
       "category_id": "2",
       "image": "img/san-pham/san-pham-9.jpg"
     }
-    
   ],
   "category": [
     {
@@ -126,13 +125,415 @@
   ],
   "user": [
     {
-      "id" : 1,
-      "name" : "khai",
-      "email" : "khai@khai",
-      "pass":"khai",
-      "phone" : "0846141788",
-      "address" : "HCM  city"
+      "id": "1",
+      "name": "khai",
+      "email": "khai@khai",
+      "pass": "khai",
+      "phone": "0846141788",
+      "address": "HCM  city"
+    },
+    {
+      "id": "c57c",
+      "email": "khai@gmail.com",
+      "pass": "khai",
+      "phone": "0846141788",
+      "address": "HCM",
+      "name": "khaizinam"
+    },
+    {
+      "id": "1e74",
+      "email": "khai@gmail.com",
+      "pass": "khai",
+      "phone": "0846141788",
+      "address": "HCM",
+      "name": "khaizinam"
     }
   ],
-  "cart": {}
+  "cart": [],
+  "buy_history": [
+    {
+      "id": "9d30",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "96cb",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 3,
+          "created_at": "2024-10-11 10:15",
+          "total": 120000,
+          "updated_at": "2024-10-11 10:16"
+        },
+        {
+          "id": "117a",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-4.jpg",
+          "product_id": "4",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 10:15",
+          "total": "40000",
+          "updated_at": "2024-10-11 10:15"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 160000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:17",
+      "updated_at": "2024-10-11 10:17"
+    },
+    {
+      "id": "edc8",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "96cb",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 3,
+          "created_at": "2024-10-11 10:15",
+          "total": 120000,
+          "updated_at": "2024-10-11 10:16"
+        },
+        {
+          "id": "117a",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-4.jpg",
+          "product_id": "4",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 10:15",
+          "total": "40000",
+          "updated_at": "2024-10-11 10:15"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 160000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:21",
+      "updated_at": "2024-10-11 10:21"
+    },
+    {
+      "id": "0620",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "96cb",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 3,
+          "created_at": "2024-10-11 10:15",
+          "total": 120000,
+          "updated_at": "2024-10-11 10:16"
+        },
+        {
+          "id": "117a",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-4.jpg",
+          "product_id": "4",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 10:15",
+          "total": "40000",
+          "updated_at": "2024-10-11 10:15"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 160000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:22",
+      "updated_at": "2024-10-11 10:22"
+    },
+    {
+      "id": "3c6b",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "96cb",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 3,
+          "created_at": "2024-10-11 10:15",
+          "total": 120000,
+          "updated_at": "2024-10-11 10:16"
+        },
+        {
+          "id": "117a",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-4.jpg",
+          "product_id": "4",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 10:15",
+          "total": "40000",
+          "updated_at": "2024-10-11 10:15"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 160000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:23",
+      "updated_at": "2024-10-11 10:23"
+    },
+    {
+      "id": "e8b7",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "96cb",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 3,
+          "created_at": "2024-10-11 10:15",
+          "total": 120000,
+          "updated_at": "2024-10-11 10:16"
+        },
+        {
+          "id": "117a",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-4.jpg",
+          "product_id": "4",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 10:15",
+          "total": "40000",
+          "updated_at": "2024-10-11 10:15"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 160000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:23",
+      "updated_at": "2024-10-11 10:23"
+    },
+    {
+      "id": "69f6",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "96cb",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 3,
+          "created_at": "2024-10-11 10:15",
+          "total": 120000,
+          "updated_at": "2024-10-11 10:16"
+        },
+        {
+          "id": "117a",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-4.jpg",
+          "product_id": "4",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 10:15",
+          "total": "40000",
+          "updated_at": "2024-10-11 10:15"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 160000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:29",
+      "updated_at": "2024-10-11 10:29"
+    },
+    {
+      "id": "7ded",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "96cb",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 3,
+          "created_at": "2024-10-11 10:15",
+          "total": 120000,
+          "updated_at": "2024-10-11 10:16"
+        },
+        {
+          "id": "117a",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-4.jpg",
+          "product_id": "4",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 10:15",
+          "total": "40000",
+          "updated_at": "2024-10-11 10:15"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 160000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:29",
+      "updated_at": "2024-10-11 10:29"
+    },
+    {
+      "id": "8b85",
+      "use_id": "c57c",
+      "items": [],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 0,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:30",
+      "updated_at": "2024-10-11 10:30"
+    },
+    {
+      "id": "f009",
+      "use_id": "c57c",
+      "items": [],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 0,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 10:31",
+      "updated_at": "2024-10-11 10:31"
+    },
+    {
+      "id": "7042",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "8bdf",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 11:03",
+          "total": "40000",
+          "updated_at": "2024-10-11 11:03"
+        },
+        {
+          "id": "619e",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-2.jpg",
+          "product_id": "2",
+          "user_id": "c57c",
+          "qty": 1,
+          "created_at": "2024-10-11 11:03",
+          "total": "40000",
+          "updated_at": "2024-10-11 11:03"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 80000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 11:03",
+      "updated_at": "2024-10-11 11:03"
+    },
+    {
+      "id": "6828",
+      "use_id": "c57c",
+      "items": [
+        {
+          "id": "814d",
+          "name": "Polo 2",
+          "cost": "40000",
+          "category_id": "1",
+          "image": "img/san-pham/san-pham-3.jpg",
+          "product_id": "3",
+          "user_id": "c57c",
+          "qty": 4,
+          "created_at": "2024-10-11 11:31",
+          "total": 160000,
+          "updated_at": "2024-10-11 11:31"
+        }
+      ],
+      "user_name": "khaizinam",
+      "user_email": "khai@gmail.com",
+      "user_address": "HCM",
+      "user_phone": "0846141788",
+      "user_message": "",
+      "totalPrice": 160000,
+      "shippingPrice": 0,
+      "created_at": "2024-10-11 11:31",
+      "updated_at": "2024-10-11 11:31"
+    }
+  ]
 }

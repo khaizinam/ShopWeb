@@ -11,9 +11,11 @@ import { CartComponent } from './pages/cart/cart.component';
 import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { provideHttpClient } from '@angular/common/http';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { CheckoutSuccessComponent } from './pages/checkout-success/checkout-success.component';
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'product/:id', component: ProductComponent },
+  // { path: 'product/:id', component: ProductComponent },
   { path: 'product-detail/:id', component: ProductDetailComponent },
   { path: 'policy', component: PolicyComponent },
   { path: 'cart', component: CartComponent },
@@ -22,6 +24,8 @@ export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'forgot-password', component: ForgotPasswordComponent },
+  { path: 'checkout', component: CheckoutComponent },
+  { path: 'checkout-success/:id', component: CheckoutSuccessComponent },
   { path: '**', pathMatch: 'full', component: PageNotFoundComponent },
 ];
 export const appConfig = {

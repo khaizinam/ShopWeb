@@ -1,12 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
+import { AuthService } from './services/auth.service';
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     RouterOutlet,
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   templateUrl: './app.component.html',
 })
@@ -14,14 +17,14 @@ export class AppComponent {
   title = 'ShopWeb';
   userCookieExists: boolean = false;
   userLogin: any = null;
-  constructor() {}
+  constructor(private authService: AuthService) {}
 
   ngOnInit() {
     this.checkUserCookie();
   }
 
   checkUserCookie() {
-    const userCookie = this.getCookie('user');
+    const userCookie = this.authService.getUser();
     if (userCookie) {
       this.userCookieExists = true;
       this.userLogin = JSON.parse(userCookie);
@@ -30,10 +33,5 @@ export class AppComponent {
       this.userCookieExists = false;
       console.log('User cookie does not exist');
     }
-  }
-
-  private getCookie(name: string): string | null {
-    const match = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]*)'));
-    return match ? decodeURIComponent(match[2]) : null; // Return the cookie value or null
   }
 }

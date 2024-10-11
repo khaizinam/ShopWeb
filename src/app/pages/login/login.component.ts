@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   public pass :string = "";
 
   ngOnInit() {
-  
+
   }
   public login() {
     const loginData = {
@@ -34,7 +34,7 @@ export class LoginComponent implements OnInit {
           document.cookie = `user=${encodeURIComponent(JSON.stringify(response[0]))}; path=/;`;
           this.router.navigate(['/']); // Change to your desired route
         }
-        
+
       },
       (error:any) => {
         console.error('Login failed:', error);

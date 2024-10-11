@@ -6,6 +6,6 @@ import { BaseService } from './base.service';
 @Injectable({
   providedIn: 'root'
 })
-export class CategoryService extends BaseService {
-  public override route = 'category';
+export class CartService extends BaseService{
+  public override route = 'cart'; // Your JSON server URL
 }
