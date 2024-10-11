@@ -27,4 +27,8 @@ export class AuthService extends BaseService{
     console.log("user", user);
     return user;
   }
+
+  public logout() {
+    document.cookie = "user=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+  }
 }

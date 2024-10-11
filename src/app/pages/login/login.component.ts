@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
   public pass :string = "";
 
   ngOnInit() {
-
+    document.cookie = "user=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
   }
   public login() {
     const loginData = {
