@@ -76,6 +76,7 @@ export class CartComponent implements OnInit{
   }
 
   public getTotalPrice(){
+    this.totalPrice = 0;
     this.cartData.forEach(element => {
       this.totalPrice += parseInt(element.total);
     });
@@ -86,7 +87,6 @@ export class CartComponent implements OnInit{
       (response) => {
         if(response){
           this.cartData = this.cartData.filter((el:any)=> el.id !== item.id);
-          alert("deleted item success !");
         }
       },
       (error:any) => {
