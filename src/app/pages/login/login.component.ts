@@ -32,7 +32,8 @@ export class LoginComponent implements OnInit {
       (response:any | []) => {
         if(response && response.length > 0){
           document.cookie = `user=${encodeURIComponent(JSON.stringify(response[0]))}; path=/;`;
-          this.router.navigate(['/']); // Change to your desired route
+          // this.router.navigate(['/']); // Change to your desired route
+          window.location.href = "/";
         }
 
       },
